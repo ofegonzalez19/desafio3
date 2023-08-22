@@ -31,7 +31,7 @@ const Formulario = ({onSubmit, setAlerta }) => {
             colaborador.telefono === "") {
             setAlerta({
                 msg: "Completa todos los campos",
-                color: "danger",
+                color: "warning",
             })
             return;
 
